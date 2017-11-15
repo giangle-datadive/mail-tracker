@@ -1,0 +1,25 @@
+{
+    "name": "gianglevan94/mail-tracker",
+    "description": "A package sendmail with tracking",
+    "authors": [
+        {
+            "name": "Giang Le",
+            "email": "gianglevan94@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MailTracker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "MailTracker\\Providers\\MailTrackerProvider"
+          ]
+        }
+      },
+      "license": "MIT"
+}
