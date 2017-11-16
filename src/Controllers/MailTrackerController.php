@@ -2,7 +2,7 @@
 
 namespace MailTracker\Controllers;
 
-use App\Http\Controllers\Controller;
+use Illuminate\Routing\Controller;
 use MailTracker\Models\MailTracker;
 
 class MailTrackerController extends Controller
