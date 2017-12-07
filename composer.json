@@ -8,7 +8,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+      "gianglevan94/mail-tracker": "@dev"
+    },
     "autoload": {
         "psr-4": {
             "MailTracker\\": "src/"

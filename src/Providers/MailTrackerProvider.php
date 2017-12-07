@@ -17,7 +17,6 @@ class MailTrackerProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
         $this->loadViewsFrom(__DIR__ . '/../views', 'mail_tracker');
         $this->publishes([
-            __DIR__.'/../config/mail-tracker.php' => config_path('mail-tracker.php'),
             __DIR__.'/../assets' => public_path('vendor/mail-tracker'),
         ]);
     }
